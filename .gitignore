@@ -1,40 +1,15 @@
-
-# Ambientes virtuais Python
+# Ambientes virtuais
 venv/
-env/
 .venv/
-.env/
 
-# PyCharm 
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Python bytecode
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
 
-# Arquivos de teste e coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Logs do jogo 
-*.log
-logs/
-
-# Arquivos temporários do sistema
-.DS_Store      # Mac
-Thumbs.db      # Windows
-*~             # Linux/Unix
-
-# Backup dos dados de jogadores 
+# Arquivos do projeto
 jogadores_backup.json
+*.log
 
-# Builds e distribuições
-dist/
-build/
-*.egg-info/
+# Linux
+*~
