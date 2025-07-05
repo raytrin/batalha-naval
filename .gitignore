@@ -13,3 +13,9 @@ jogadores_backup.json
 
 # Linux
 *~
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
