@@ -13,7 +13,11 @@ def mostrar_tabuleiro():
     board = Tabuleiro.criar_tabuleiro()
     coordenadas = Tabuleiro.coordenadas() 
     navio, submarino = Tabuleiro.posicionar_embarcacoes(coordenadas)
-    nome = input("\nNome: ")
+    while True:
+        nome = input("\nNome: ").strip()
+        if nome:
+            break
+        print("Por favor, digite seu nome.")
     print("\n-------------------------------------------------------")
 
     #carrega os dados dos jogadores
