@@ -27,7 +27,7 @@ def input_jogador():
     
     #print da entrada do jogador
     print(f"\nDigite a posição para tentar (formato linha e coluna. {Fore.LIGHTYELLOW_EX}Ex.: A 1{Style.RESET_ALL})")
-    entrada = input("Se quiser desistir digite -1: ").strip()
+    entrada = input("Se quiser desistir digite -1: ").strip().upper()
     print("\n-------------------------------------------------------------")
     
     

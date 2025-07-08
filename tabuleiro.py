@@ -84,7 +84,6 @@ class Tabuleiro:
 
         #verifica se a posição já foi jogada
         if board[jogada[0]][jogada[1]] != "\u2588":
-            print("\n==> Você já jogou nessa posição!")
             return -1
 
         #muda o char caso a coordenada escolhida seja a de um navio
